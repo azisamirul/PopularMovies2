@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Popular Movies 2</string>
+    <string name="tv_trailers">Trailers : </string>
+    <string name="btn_detail_favourite">Mark As Favorite</string>
+    <string name="remove_favourite">Remove From Favourite</string>
+    <string name="popular_menu">Popular</string>
+    <string name="top_rated_menu">Top Rated</string>
+    <string name="favourite_menu">Favourite</string>
+    <string name="txt_trailer">Trailer</string>
+    <string name="txt_review">Review</string>
+</resources>

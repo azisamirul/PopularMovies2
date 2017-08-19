@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewReview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <TextView
+        android:id="@+id/tv_review_detail_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="@dimen/bigTextSize"
+        android:text="Movie Title"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_review_detail_author"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:textSize="@dimen/bigTextSize"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:text="Text"
+        android:layout_height="wrap_content" />
+<TextView
+    android:id="@+id/tv_review_detail_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/marginBottom"
+    android:layout_marginRight="@dimen/marginRight"
+    android:layout_marginLeft="@dimen/marginLeft"
+    android:textSize="@dimen/normalTextSize" />
+</LinearLayout>
+</ScrollView>
