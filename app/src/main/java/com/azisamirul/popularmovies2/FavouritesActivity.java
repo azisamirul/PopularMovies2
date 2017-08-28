@@ -33,7 +33,7 @@ public class FavouritesActivity extends AppCompatActivity implements LoaderManag
         setContentView(R.layout.activity_favourites);
         favRecyclerView = (RecyclerView) findViewById(R.id.rv_favourites_movies);
 
-        favRecyclerView.setLayoutManager(gridLayoutManager);
+
         getSupportLoaderManager().initLoader(FAV_LOADER_ID, null, this);
         favRecyclerView.setHasFixedSize(true);
 
@@ -46,6 +46,7 @@ public class FavouritesActivity extends AppCompatActivity implements LoaderManag
         }else{
             gridLayoutManager=new GridLayoutManager(FavouritesActivity.this,2);
         }
+        favRecyclerView.setLayoutManager(gridLayoutManager);
         if (savedInstanceState != null) {
                 if (savedInstanceState.containsKey(FAVOURITE_LISTS_KEY_RV)) {
                     parcelable = savedInstanceState.getParcelable(FAVOURITE_LISTS_KEY_RV);
